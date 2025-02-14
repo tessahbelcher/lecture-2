@@ -23,12 +23,13 @@ type Colleague struct {
 }
 
 func main() {
-    var colleague Colleague
+    
+    var colleague1 Colleague
 
     fmt.Println("What is your colleague's first name?")
-    fmt.Scanln(&colleague.Name)
+    fmt.Scanln(&colleague1.Name)
 
-    fmt.Println("Will you blame", colleague.Name, "for the software bug? (0 = no, 1 = yes)")
+    fmt.Println("Will you blame", colleague1.Name, "for the software bug? (0 = no, 1 = yes)")
 
     var response int
     fmt.Scanln(&response)
